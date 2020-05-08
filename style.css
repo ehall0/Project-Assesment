@@ -1,0 +1,47 @@
+#body{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+} 
+
+#result{
+text-align: center;
+font-size: 90px;
+margin:30px;
+}
+#calculate{
+flex-direction: row;
+justify-content: space-evenly;
+text-align: center;
+margin:20px;
+}
+
+#add{
+    width:10%;
+border-radius: 10px;
+border: solid gray;
+background: gray;
+font-size: 40px;
+}
+#add:hover{
+    background-color: white;
+}
+
+.input{
+    width:10%;
+    border-radius: 10px;
+    border: solid gray;
+    font-size: 40px;
+    text-align: center;
+}
+
+#subtract{
+    width:10%;
+    border-radius: 10px;
+    border: solid gray;
+    background: gray;
+    font-size: 40px;
+}
+#subtract:hover{
+    background-color: white;
+}
