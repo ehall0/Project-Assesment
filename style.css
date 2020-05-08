@@ -8,40 +8,54 @@ justify-content: space-around;
 text-align: center;
 font-size: 90px;
 margin:30px;
+font-family:'Roboto', sans-serif;
+font-weight: bolder;
 }
 #calculate{
 flex-direction: row;
 justify-content: space-evenly;
 text-align: center;
 margin:20px;
+
 }
 
 #add{
-    width:10%;
+width:10vh;
+height: 10vh;
 border-radius: 10px;
-border: solid gray;
-background: gray;
+border: solid rgb(163, 162, 162);
+background: rgb(163, 162, 162);
 font-size: 40px;
+font-family: 'Roboto', sans-serif;
+color:white;
 }
 #add:hover{
     background-color: white;
+    color: rgb(163, 162, 162);
 }
 
 .input{
-    width:10%;
+    font-family:'Roboto', sans-serif; 
+    width:10vh;
+    height: 9vh;
     border-radius: 10px;
-    border: solid gray;
-    font-size: 40px;
+    border: solid rgb(163, 162, 162);
+    font-size:40px;
     text-align: center;
+    
 }
 
 #subtract{
-    width:10%;
+    width:10vh;
+    height: 10vh;
     border-radius: 10px;
-    border: solid gray;
-    background: gray;
+    border: solid rgb(163, 162, 162);
+    background: rgb(163, 162, 162);
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
 }
 #subtract:hover{
     background-color: white;
+    color: rgb(163, 162, 162);
 }
